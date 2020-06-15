@@ -29,12 +29,16 @@ stagingevents, stagingsongs are used to load data from S3 before inserting into 
 
 select COUNT(*) AS total FROM artists
 10025
+
 select COUNT(*) AS total FROM songs
 14896
+
 select COUNT(*) AS total FROM time
 6813
+
 select COUNT(*) AS total FROM users
 104
+
 select COUNT(*) AS total FROM songplays
 39828
 
